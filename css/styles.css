@@ -213,9 +213,9 @@ body {
     }
 }
 
-
-
-
+.icon-hover {
+    display: block;
+}
 
 
 
@@ -253,6 +253,8 @@ body {
 .team-socials__social--networks:focus::before {
     opacity: 1;
 }
+
+
 
 .team-socials__social--networks {
     position: relative;
