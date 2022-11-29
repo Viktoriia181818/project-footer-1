@@ -161,7 +161,7 @@ body {
     outline: 0;
 }
 
-.contact-textarea {
+.textarea {
     height: 220px;
     width: 100%;
     font-weight: 500;
@@ -223,6 +223,8 @@ body {
 .team-socials__icon {
     width: 20px;
     height: 20px;
+    position: relative;
+    z-index: 2;
 }
 
 .form {
@@ -254,22 +256,6 @@ body {
     opacity: 1;
 }
 
-.team-socials__social--networks:hover .icon-default,
-.team-socials__social--networks:focus .icon-default {
-    display: none;
-}
-
-.team-socials__social--networks:hover .icon-hover,
-.team-socials__social--networks:focus .icon-hover {
-    display: block;
-}
-
-.icon-hover {
-    display: none;
-}
-/* .icon-default {
-    display: none;
-} */
 
 .team-socials__social--networks {
     position: relative;
