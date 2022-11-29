@@ -254,7 +254,22 @@ body {
     opacity: 1;
 }
 
+.team-socials__social--networks:hover .icon-default,
+.team-socials__social--networks:focus .icon-default {
+    display: none;
+}
 
+.team-socials__social--networks:hover .icon-hover,
+.team-socials__social--networks:focus .icon-hover {
+    display: block;
+}
+
+.icon-hover {
+    display: none;
+}
+/* .icon-default {
+    display: none;
+} */
 
 .team-socials__social--networks {
     position: relative;
@@ -276,9 +291,9 @@ body {
 .team-socials__social--networks::before {
     position: absolute;
     content: "";
-    /* left: 50%;
-    top: 50%; */
-    translate: (-50%, -50%);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     width: calc(100% - 2px);
     height: calc(100% - 2px);
     background: #06071b;
