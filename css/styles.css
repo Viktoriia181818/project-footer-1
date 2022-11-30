@@ -61,7 +61,7 @@ body {
     margin-bottom: 40px;
 }
 
-.footer-title-text {
+.footer-address__title--text {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -69,7 +69,7 @@ body {
     color: #ffffff;
 }
 
-.footer-text {
+.footer-address__footer-text {
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
@@ -139,7 +139,7 @@ body {
 
 
 @media screen and (min-width: 768px) {
-    .contact-form {
+    .form__contact-form {
         display: flex;
         gap: 32px;
     }
@@ -175,7 +175,7 @@ body {
     margin-bottom: 20px;
 }
 
-.footer-button {
+.button-class__footer--button {
     height: 42px;
     background: transparent;
     border-radius: 5px;
@@ -242,22 +242,22 @@ body {
 
 
 
-.footer-socials-net {
+.footer-socials__link {
     background: transparent;
 }
 
-/* .team-socials__social--networks:hover,
-.team-socials__social--networks:focus {
+/* .footer-socials__link--networks:hover,
+.footer-socials__link--networks:focus {
     background: #06071b;
 } */
 
-.team-socials__social--networks:hover::before,
-.team-socials__social--networks:focus::before {
+.footer-socials__link--networks:hover::before,
+.footer-socials__link--networks:focus::before {
     opacity: 1;
 }
 
 
-.team-socials__social--networks {
+.footer-socials__link--networks {
     position: relative;
     display: flex;
     align-items: center;
@@ -270,11 +270,11 @@ body {
     border: none;
 }
 
-.team-socials__social--networks {
+.footer-socials__link--networks {
     width: 40px;
 }
 
-.team-socials__social--networks::before {
+.footer-socials__link--networks::before {
     position: absolute;
     content: "";
     left: 50%;
@@ -297,7 +297,7 @@ body {
 
 
 
-.footer-contact-footer {
+.footer-contact--adaptive__contact {
     padding: 0;
 }
 
@@ -322,17 +322,6 @@ address {
     font-style: normal;
 }
 
-.support {
-    border-top: 1px solid #ffffff;
-}
-
-.support-text {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    color: #ffffff;
-    margin-left: 24px;
-}
 
 
 
@@ -365,7 +354,7 @@ address {
 
 
 @media screen and (min-width:1280px) {
-    .footer-address-footer {
+    .footer-address__adaptive {
         display: none;
     }
 }
@@ -375,7 +364,7 @@ address {
 
 
 
-.footer-socials-footer {
+.footer-socials__adaptive {
     display: flex;
     list-style: none;
     gap: 14px;
@@ -384,7 +373,7 @@ address {
     margin-bottom: 40px;
 }
 
-.footer-title-text-footer {
+.footer-address--adaptive__title {
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
@@ -392,7 +381,7 @@ address {
     color: #FFFFFF;
 }
 
-.footer-text-footer {
+.footer-address--adaptive__text {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
