@@ -49,7 +49,7 @@ body {
     }
 }
 
-.footer-title {
+.contact-title {
     font-family: "Inter";
     font-style: normal;
     font-weight: 700;
@@ -61,7 +61,7 @@ body {
     margin-bottom: 40px;
 }
 
-.footer-address__title--text {
+.contact-address__title--text {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
@@ -69,7 +69,7 @@ body {
     color: #ffffff;
 }
 
-.footer-address__footer-text {
+.contact-address__contact--text {
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
@@ -77,7 +77,7 @@ body {
     margin-bottom: 40px;
 }
 
-.footer-contact__number {
+.contact__number {
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
@@ -99,7 +99,7 @@ body {
     transform: rotate(-149.52deg);
 }
 
-.footer-contact__email {
+.contact__email {
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
@@ -112,7 +112,7 @@ body {
 
 
 @media screen and (max-width:767px) {
-    .footer {
+    .contact-us {
         background-image: url(../images/bg-mobilevers.jpg);
         background-position: center;
         background-size: cover;
@@ -121,7 +121,7 @@ body {
 }
 
 @media screen and (min-width:768px) {
-    .footer {
+    .contact-us {
         background-image: url(../images/bg-tabletvers.jpg);
         background-size: cover;
         background-repeat: no-repeat;
@@ -129,7 +129,7 @@ body {
 }
 
 @media screen and (min-width: 1280px) {
-    .footer {
+    .contact-us {
         background-image: url(../images/bg-footer.jpg);
         background-position: center;
         background-size: cover;
@@ -175,7 +175,7 @@ body {
     margin-bottom: 20px;
 }
 
-.button-class__footer--button {
+.contact-button__link {
     height: 42px;
     background: transparent;
     border-radius: 5px;
@@ -187,16 +187,16 @@ body {
     cursor: pointer;
 }
 
-.footer-button {
+.contact-button__link {
     width: 200px;
 }
 
-.footer-button:hover,
-.footer-button:focus {
+.contact-button__link:hover,
+.contact-button__link:focus {
     background: #06071b;
 }
 
-.button-class {
+.contact-button {
     display: inline-flex;
     justify-content: center;
     background-image: linear-gradient(90.03deg, #00c5eb -1.97%, #b544fe 89.43%);
@@ -208,7 +208,7 @@ body {
 }
 
 @media screen and (min-width: 1280px) {
-    .button-class {
+    .contact-button {
         align-self: end;
     }
 }
@@ -220,7 +220,7 @@ body {
 
 
 
-.team-socials__icon {
+.contact-socials__icon {
     width: 20px;
     height: 20px;
     position: relative;
@@ -233,7 +233,7 @@ body {
     width: 100%;
 }
 
-.footer-socials {
+.contact-socials {
     display: flex;
     list-style: none;
     gap: 14px;
@@ -242,22 +242,22 @@ body {
 
 
 
-.footer-socials__link {
+.contact-socials__link {
     background: transparent;
 }
 
-/* .footer-socials__link--networks:hover,
-.footer-socials__link--networks:focus {
+/* .contact-socials__link--networks:hover,
+.contact-socials__link--networks:focus {
     background: #06071b;
 } */
 
-.footer-socials__link--networks:hover::before,
-.footer-socials__link--networks:focus::before {
+.contact-socials__link--networks:hover::before,
+.contact-socials__link--networks:focus::before {
     opacity: 1;
 }
 
 
-.footer-socials__link--networks {
+.contact-socials__link--networks {
     position: relative;
     display: flex;
     align-items: center;
@@ -270,11 +270,11 @@ body {
     border: none;
 }
 
-.footer-socials__link--networks {
+.contact-socials__link--networks {
     width: 40px;
 }
 
-.footer-socials__link--networks::before {
+.contact-socials__link--networks::before {
     position: absolute;
     content: "";
     left: 50%;
@@ -289,7 +289,7 @@ body {
     opacity: 0;
 }
 
-.team-socials__icon {
+.contact-socials__icon {
     fill: #FFFFFF;
 }
 
@@ -297,7 +297,7 @@ body {
 
 
 
-.footer-contact--adaptive__contact {
+.contact--adaptive__contact {
     padding: 0;
 }
 
@@ -305,7 +305,7 @@ body {
 
 
 
-.footer-contact {
+.contact {
     display: flex;
     flex-direction: column;
     row-gap: 12px;
@@ -313,7 +313,7 @@ body {
 }
 
 @media screen and(max-width:767px) {
-    .footer-contact {
+    .contact {
         justify-content: center;
     }
 }
@@ -326,7 +326,7 @@ address {
 
 
 @media screen and (min-width: 1280px) {
-    .section-footer {
+    .section-contact {
         display: flex;
         justify-content: space-between;
     }
@@ -336,25 +336,25 @@ address {
 
 
 @media screen and (min-width:1px) {
-    .footer-address {
-            display: none;
+    .contact-address {
+        display: none;
     }
 }
 
-    @media screen and (min-width:1280px) {
-    .footer-address {
+@media screen and (min-width:1280px) {
+    .contact-address {
         display: block;
-            max-width: 500px;
-            margin-right: 90px;
+        max-width: 500px;
+        margin-right: 90px;
     }
-       
-    }
+
+}
 
 
 
 
 @media screen and (min-width:1280px) {
-    .footer-address__adaptive {
+    .contact-address__adaptive {
         display: none;
     }
 }
@@ -364,7 +364,7 @@ address {
 
 
 
-.footer-socials__adaptive {
+.contact-socials__adaptive {
     display: flex;
     list-style: none;
     gap: 14px;
@@ -373,7 +373,7 @@ address {
     margin-bottom: 40px;
 }
 
-.footer-address--adaptive__title {
+.contact-address--adaptive__title {
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
@@ -381,7 +381,7 @@ address {
     color: #FFFFFF;
 }
 
-.footer-address--adaptive__text {
+.contact-address--adaptive__text {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -390,7 +390,7 @@ address {
     margin-bottom: 40px;
 }
 
-.footer-contact__number-footer {
+.contact__number--adaptive {
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -400,7 +400,7 @@ address {
     margin-bottom: 12px;
 }
 
-.footer-contact__email-footer {
+.contact__email--adaptive {
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
@@ -410,14 +410,14 @@ address {
 }
 
 @media screen and (min-width:678px) {
-    .footer-contact__email-footer {
+    .contact__email-footer {
         margin-bottom: 80px;
     }
 
 }
 
 @media screen and (max-width:677px) {
-    .footer-contact__email-footer {
+    .contact__email-footer {
         margin-bottom: 40px;
     }
 
