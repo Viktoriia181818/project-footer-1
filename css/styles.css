@@ -146,6 +146,18 @@ body {
 }
 
 .contact-name {
+    margin-bottom: 20px;
+        width: 100%;
+        padding: 11.5px 8px;
+        background: #ffffff;
+        border-radius: 5px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #939eac;
+        outline: none;
     /* margin-bottom: 20px;
     width: 100%;
     height: 40px; */
@@ -173,6 +185,7 @@ body {
     resize: none;
     outline: none;
     margin-bottom: 20px;
+    padding: 12px 8px;
 }
 
 .contact-button__link {
@@ -354,18 +367,8 @@ address {
 }
 
 .contact-label {
-margin-bottom: 20px;
-    width: 100%;
-    height: 40px;
-    background: #ffffff;
-    border-radius: 5px;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 17px;
-    color: #939eac;
-    outline: 0;
+display: block;
+flex-basis: calc(50% - 16px);
 }
 
 /* @media screen and (min-width:1px) {
