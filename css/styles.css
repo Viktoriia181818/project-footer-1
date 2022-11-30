@@ -146,11 +146,11 @@ body {
 }
 
 .contact-name {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px;
     width: 100%;
-    height: 40px;
+    height: 40px; */
     border: none;
-    background: #ffffff;
+    /* background: #ffffff;
     border-radius: 5px;
     font-family: "Inter";
     font-style: normal;
@@ -158,7 +158,7 @@ body {
     font-size: 14px;
     line-height: 17px;
     color: #939eac;
-    outline: 0;
+    outline: 0; */
 }
 
 .textarea {
@@ -333,13 +333,46 @@ address {
 
 }
 
+@media screen and (max-width: 1279px) {
+    .section-contact {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+}
 
 
-@media screen and (min-width:1px) {
+@media screen and (max-width:1279px) {
+    .contact-address {
+        text-align: center;
+    }
+
+    .contact-socials {
+        justify-content: center;
+    }
+}
+
+.contact-label {
+margin-bottom: 20px;
+    width: 100%;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 5px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #939eac;
+    outline: 0;
+}
+
+/* @media screen and (min-width:1px) {
     .contact-address {
         display: none;
     }
-}
+} */
 
 @media screen and (min-width:1280px) {
     .contact-address {
